@@ -2,6 +2,10 @@
   "name": "eslint-config-oniyi",
   "version": "1.0.0",
   "description": "JavaScript Style Guide based on airbnb/javascript",
+  "files": [
+    "index.js",
+    "rules"
+  ],
   "main": "index.js",
   "scripts": {
     "lint": "eslint ."
