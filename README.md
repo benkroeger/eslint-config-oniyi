@@ -36,7 +36,7 @@ Our default export lints ES5 and below, only requires `eslint`
 1. `npm install --save-dev eslint-config-oniyi eslint`
 2. add `"extends": "oniyi"` to your .eslintrc
 
-### eslint-config-airbnb/node
+### eslint-config-oniyi/node
 
 contains all of our default ESLint rules plus EcmaScript 6+
 (recommended for [node.js](https://nodejs.org) development)
@@ -44,7 +44,7 @@ contains all of our default ESLint rules plus EcmaScript 6+
 1. `npm install --save-dev eslint-config-oniyi eslint`
 2. add `"extends": "oniyi/node"` to your .eslintrc
 
-### eslint-config-airbnb/angular
+### eslint-config-oniyi/angular
 
 contains all of our default ESLint rules plus `eslint-plugin-angular`
 (recommended fpr [angular](https://angularjs.org) development). Default rules are following
