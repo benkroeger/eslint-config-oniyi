@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-oniyi",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "JavaScript Style Guide based on airbnb/javascript",
   "files": [
     "index.js",
@@ -20,7 +20,10 @@
     "eslint",
     "eslintconfig",
     "styleguide",
-    "javascript"
+    "javascript",
+    "angular",
+    "johnpapa",
+    "airbnb"
   ],
   "author": {
     "name": "Benjamin Kroeger",
