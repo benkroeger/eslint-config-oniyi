@@ -1,6 +1,8 @@
 module.exports = {
   extends: [
     'eslint-config-oniyi',
+    'eslint-config-oniyi/rules/best-practices',
+    'eslint-config-oniyi/rules/style',
     'eslint-config-oniyi/rules/angular'
   ].map(require.resolve),
   env: {
