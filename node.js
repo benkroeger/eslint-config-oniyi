@@ -8,6 +8,8 @@ module.exports = {
     'eslint-config-oniyi/rules/style',
     'eslint-config-airbnb/rules/variables',
     'eslint-config-airbnb/rules/es6',
+    // overload with own es6 rules
+    'eslint-config-oniyi/rules/es6',
   ].map(require.resolve),
   env: {
     browser: false,
