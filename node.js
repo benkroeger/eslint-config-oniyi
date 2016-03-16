@@ -1,9 +1,13 @@
 module.exports = {
   extends: [
     'eslint-config-oniyi',
+    'eslint-config-airbnb/rules/node',
+    // re-apply style and variables (node rules are loaded before style and variables in the eslint-config-airbnb as well)
+    'eslint-config-airbnb/rules/style',
+    // overload with own style
+    'eslint-config-oniyi/rules/style',
+    'eslint-config-airbnb/rules/variables',
     'eslint-config-airbnb/rules/es6',
-    'eslint-config-oniyi/rules/best-practices',
-    'eslint-config-oniyi/rules/style'
   ].map(require.resolve),
   env: {
     browser: false,

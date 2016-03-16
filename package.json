@@ -35,13 +35,13 @@
   },
   "homepage": "https://github.com/benkroeger/eslint-config-oniyi#readme",
   "dependencies": {
-    "eslint-config-airbnb": "^4.0.0"
+    "eslint-config-airbnb": "^6.1.0"
   },
   "optionalDependencies": {
-    "eslint-plugin-angular": "^0.15.0"
+    "eslint-plugin-angular": "^1.0.0"
   },
   "devDependencies": {},
   "peerDependencies": {
-    "eslint": ">=1.0.0"
+    "eslint": "^2.2.0"
   }
 }
