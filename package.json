@@ -1,11 +1,10 @@
 {
   "name": "eslint-config-oniyi",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "JavaScript Style Guide based on airbnb/javascript",
   "files": [
     "index.js",
-    "node.js",
-    "angular.js",
+    "legacy.js",
     "rules"
   ],
   "main": "index.js",
@@ -21,8 +20,6 @@
     "eslintconfig",
     "styleguide",
     "javascript",
-    "angular",
-    "johnpapa",
     "airbnb"
   ],
   "author": {
@@ -35,13 +32,13 @@
   },
   "homepage": "https://github.com/benkroeger/eslint-config-oniyi#readme",
   "dependencies": {
-    "eslint-config-airbnb": "^6.1.0"
+    "eslint-config-airbnb-base": "^1.0.4",
+    "eslint-plugin-import": "^1.6.1"
   },
   "optionalDependencies": {
-    "eslint-plugin-angular": "^1.0.0"
   },
   "devDependencies": {},
   "peerDependencies": {
-    "eslint": "^2.2.0"
+    "eslint": "^2.8.0"
   }
 }

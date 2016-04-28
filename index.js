@@ -1,23 +1,25 @@
 module.exports = {
   extends: [
-    'eslint-config-airbnb/rules/best-practices',
-    // overload with own best-practices
-    'eslint-config-oniyi/rules/best-practices',
-    'eslint-config-airbnb/rules/errors',
-    'eslint-config-airbnb/rules/legacy',
-    'eslint-config-airbnb/rules/style',
-    // overload with own style
-    'eslint-config-oniyi/rules/style',
-    'eslint-config-airbnb/rules/variables',
+    'eslint-config-airbnb-base/rules/best-practices',
+    './rules/best-practices', // overload with own best-practices rules
+    'eslint-config-airbnb-base/rules/errors',
+    'eslint-config-airbnb-base/rules/legacy',
+    'eslint-config-airbnb-base/rules/node',
+    'eslint-config-airbnb-base/rules/style',
+    './rules/style', // overload with own style rules
+    'eslint-config-airbnb-base/rules/variables',
+    'eslint-config-airbnb-base/rules/es6',
+    './rules/es6', // overload with own es6 rules
   ].map(require.resolve),
-  env: {
-    browser: false,
-    node: false,
-    amd: false,
-    mocha: false,
-    jasmine: false
+  parserOptions: {
+    ecmaFeatures: {
+      'jsx': false,
+    },
   },
-  ecmaFeatures: {},
+  env: {
+    node: true,
+    es6: true,
+  },
   globals: {},
-  rules: {}
+  rules: {},
 };
