@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-oniyi",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "JavaScript Style Guide based on airbnb/javascript",
   "files": [
     "index.js",
@@ -35,8 +35,7 @@
     "eslint-config-airbnb-base": "^1.0.4",
     "eslint-plugin-import": "^1.6.1"
   },
-  "optionalDependencies": {
-  },
+  "optionalDependencies": {},
   "devDependencies": {},
   "peerDependencies": {
     "eslint": "^2.8.0"
