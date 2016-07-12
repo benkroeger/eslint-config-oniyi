@@ -3,13 +3,12 @@ module.exports = {
     'eslint-config-airbnb-base/rules/best-practices',
     './rules/best-practices', // overload with own best-practices rules
     'eslint-config-airbnb-base/rules/errors',
-    'eslint-config-airbnb-base/rules/legacy',
     'eslint-config-airbnb-base/rules/node',
     'eslint-config-airbnb-base/rules/style',
     './rules/style', // overload with own style rules
     'eslint-config-airbnb-base/rules/variables',
     'eslint-config-airbnb-base/rules/es6',
-    './rules/es6', // overload with own es6 rules
+    'eslint-config-airbnb-base/rules/imports',
   ].map(require.resolve),
   parserOptions: {
     ecmaFeatures: {
