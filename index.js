@@ -12,7 +12,7 @@ module.exports = {
   ].map(require.resolve),
   parserOptions: {
     ecmaFeatures: {
-      'jsx': false,
+      jsx: false,
     },
   },
   env: {
