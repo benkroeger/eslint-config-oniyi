@@ -4,7 +4,6 @@
   "description": "JavaScript Style Guide based on airbnb/javascript",
   "files": [
     "index.js",
-    "legacy.js",
     "rules"
   ],
   "main": "index.js",
