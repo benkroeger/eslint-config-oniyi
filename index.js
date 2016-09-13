@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
     'eslint-config-airbnb-base/rules/best-practices',
-    './rules/best-practices', // overload with own best-practices rules
     'eslint-config-airbnb-base/rules/errors',
+    './rules/node', // overload with own node rules
     'eslint-config-airbnb-base/rules/node',
     'eslint-config-airbnb-base/rules/style',
     './rules/style', // overload with own style rules
