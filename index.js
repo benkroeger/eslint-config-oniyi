@@ -11,8 +11,10 @@ module.exports = {
     'eslint-config-airbnb-base/rules/imports',
   ].map(require.resolve),
   parserOptions: {
+    ecmaVersion: 2015,
     ecmaFeatures: {
       jsx: false,
+      experimentalObjectRestSpread: false,
     },
   },
   env: {
