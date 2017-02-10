@@ -7,7 +7,9 @@
     "rules"
   ],
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/benkroeger/eslint-config-oniyi.git"
