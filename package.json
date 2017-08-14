@@ -23,23 +23,17 @@
     "javascript",
     "airbnb"
   ],
-  "author": {
-    "name": "Benjamin Kroeger",
-    "email": "benjamin.kroeger@gmail.com"
-  },
+  "author": "Benjamin Kroeger <benjamin.kroeger@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/benkroeger/eslint-config-oniyi/issues"
   },
   "homepage": "https://github.com/benkroeger/eslint-config-oniyi#readme",
   "dependencies": {
-    "eslint-config-airbnb-base": "11.1.0",
-    "eslint-plugin-import": "2.2.0"
+    "eslint-config-airbnb-base": "11.3.1",
+    "eslint-plugin-import": "2.7.0"
   },
   "devDependencies": {
-    "eslint": "3.15.0"
-  },
-  "peerDependencies": {
-    "eslint": "^3.15.0"
+    "eslint": "4.4.1"
   }
 }
