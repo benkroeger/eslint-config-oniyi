@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   rules: {
     // require trailing commas in multiline object literals
