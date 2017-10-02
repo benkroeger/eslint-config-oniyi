@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   rules: {
     // specify the maximum length of a line in your program
