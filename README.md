@@ -28,7 +28,8 @@ Also see [Risingstack's Post on clean code](https://blog.risingstack.com/javascr
 
 ## Usage
 
-Our default export lints ES5 and below, only requires `eslint`
+Our default export lints ES2016 and below, only requires `eslint`.
+Check [node.green](http://node.green/#ES2016) for your node's version compatibility with ES2016.
 
 1. `npm install --save-dev eslint-config-oniyi eslint`
 2. add `"extends": "oniyi"` to your `.eslintrc.js`

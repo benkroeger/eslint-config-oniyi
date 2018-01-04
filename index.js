@@ -10,6 +10,7 @@ module.exports = {
   ].map(require.resolve),
   parserOptions: {
     sourceType: 'script',
+    ecmaVersion: 2016,
     ecmaFeatures: {
       experimentalObjectRestSpread: false,
     },
