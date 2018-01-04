@@ -1,8 +1,7 @@
-> JavaScript Style Guide based on [airbnb/base](https://github.com/airbnb/javascript)
+> JavaScript Style Guide based on [airbnb/base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
 
-This style guide is based on the [airbnb/base](https://github.com/airbnb/javascript) javascript style
-for node.js development. It extends only the __base__ config,
-[react specific rules](https://github.com/airbnb/javascript/tree/master/react) are ignored.
+This style guide is based on the [airbnb/base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) javascript style
+for `node.js` development.
 Also, some customizations are inspired by [Roman Krejčík](https://twitter.com/farincz)'s
 [article](http://blog.javascripting.com/2015/09/07/fine-tuning-airbnbs-eslint-config/).
 
@@ -20,12 +19,14 @@ Always check for errors in callbacks - to round-up the callback convention
 Sometimes, a rule in the editor is just not enough. This rule raises a warning if a code line is
 longer than `120` characters (while comments are ignored)
 
+## Variables
+
+### [no-use-before-define](https://eslint.org/docs/rules/no-use-before-define) `['error', { functions: false, classes: true, variables: true }]`
+disallow use of variables and classes but not functions before they are defined.
+
+Also see [Risingstack's Post on clean code](https://blog.risingstack.com/javascript-clean-coding-best-practices-node-js-at-scale/).
 
 ## Usage
-
-We export three ESLint configurations for your usage.
-
-### eslint-config-oniyi
 
 Our default export lints ES5 and below, only requires `eslint`
 
