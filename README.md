@@ -4,6 +4,7 @@ This style guide is based on the [airbnb/base](https://github.com/airbnb/javascr
 for `node.js` development.
 Also, some customizations are inspired by [Roman Krejčík](https://twitter.com/farincz)'s
 [article](http://blog.javascripting.com/2015/09/07/fine-tuning-airbnbs-eslint-config/).
+In addition, this package ships with [ava](https://github.com/avajs/ava) [eslint rules](https://github.com/avajs/eslint-plugin-ava) for `**/*.test.js` files
 
 ## Best Practices
 ### [callback-return](http://eslint.org/docs/rules/callback-return): `[2, ['callback', 'next']]`

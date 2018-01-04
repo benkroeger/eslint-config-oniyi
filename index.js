@@ -15,4 +15,20 @@ module.exports = {
       experimentalObjectRestSpread: false,
     },
   },
+  overrides: [
+    {
+      files: ['**/*.test.js'],
+      parserOptions: {
+        ecmaVersion: 2017,
+        sourceType: 'module',
+      },
+      rules: {
+        extends: 'plugin:ava/recommended',
+        plugins: ['ava'],
+        rules: {
+          'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+        },
+      },
+    },
+  ],
 };
