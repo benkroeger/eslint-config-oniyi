@@ -5,5 +5,13 @@ module.exports = {
     // specify the maximum length of a line in your program
     // http://eslint.org/docs/rules/max-len
     'max-len': [1, 120, 2, { ignoreUrls: true, ignoreComments: true }],
+    // require trailing commas in multiline object literals
+    'comma-dangle': ['error', {
+      arrays: 'always-multiline',
+      objects: 'always-multiline',
+      imports: 'always-multiline',
+      exports: 'always-multiline',
+      functions: 'ignore',
+    }],
   },
 };
