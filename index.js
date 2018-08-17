@@ -9,9 +9,6 @@ module.exports = {
   parserOptions: {
     sourceType: 'script',
     ecmaVersion: 2016,
-    ecmaFeatures: {
-      experimentalObjectRestSpread: false,
-    },
   },
   overrides: [
     {
